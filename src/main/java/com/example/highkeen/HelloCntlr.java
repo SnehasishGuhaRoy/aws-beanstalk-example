@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello")
+
 public class HelloCntlr {
 
-	@GetMapping
+	@GetMapping("/api/hello")
 	public String sayHello() {
 		return "Hello YouTube";
 	}
