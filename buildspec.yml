@@ -16,3 +16,5 @@ phases:
 artifacts:
   files:
     - deploy/**/*
+discard-paths: no
+base-directory: ./
