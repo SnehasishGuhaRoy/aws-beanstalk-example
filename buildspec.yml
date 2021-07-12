@@ -18,3 +18,4 @@ artifacts:
   files:
   - aws-elastic-beanstalk-example-0.0.1-SNAPSHOT.war
   - .ebextensions/**/*
+discard-paths: yes
