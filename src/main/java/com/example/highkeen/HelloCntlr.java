@@ -10,7 +10,7 @@ public class HelloCntlr {
 
 	@GetMapping("/api/hello")
 	public String sayHello() {
-		return "Hello YouTube";
+		return "Hello to the AWS World";
 	}
 
 }
